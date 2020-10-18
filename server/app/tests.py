@@ -7,7 +7,7 @@ from .models import User
 from rest_framework.test import APIClient
 
 
-class DogViewSetTest(TestCase):
+class c(TestCase):
     def setUp(self):
         self.factory = RequestFactory()
         self.user = User.objects.create_superuser(
