@@ -10,7 +10,7 @@ After all package dependencies got installed then you can setup database in the 
 > DATABASES = {  
     'default': {  
         'ENGINE': 'django.db.backends.postgresql_psycopg2',  
-  'NAME': 'mitrais',  
+  'NAME': 'database_name',  
   'HOST': 'localhost',  
   'PORT': '5432',  
   'USER': 'postgres',  
